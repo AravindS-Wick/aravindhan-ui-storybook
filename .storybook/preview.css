@@ -1,0 +1,15 @@
+/* Canvas and docs backgrounds follow the active theme surface token */
+html,
+body,
+#storybook-root {
+  background-color: var(--av-theme-color-surface, #ffffff);
+  color: var(--av-theme-color-text-primary, #0f172a);
+}
+
+/* Docs page story preview containers */
+.docs-story,
+.sb-story,
+.sb-main-padded {
+  background-color: var(--av-theme-color-surface, #ffffff) !important;
+  color: var(--av-theme-color-text-primary, #0f172a) !important;
+}
